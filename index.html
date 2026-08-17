@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Snail</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game">
+
+        <!-- =========================
+             HOME
+             ========================= -->
+
+        <section id="home-screen" class="screen active">
+
+            <pre class="ascii">
+
+@             _________
+ \____       /         \
+ /    \     /   ____    \
+ \_    \   /   /    \    \
+   \    \ (    \__/  )    )
+    \    \_\ \______/    /
+     \      \           /___
+      \______\_________/____"-_
+
+
+            </pre>
+
+            <p id="home-message">
+                What do you need today?
+            </p>
+
+            <p>
+                <button id="start-button">
+                    [ begin ]
+                </button>
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             DAILY CHOICE
+             ========================= -->
+
+        <section id="choice-screen" class="screen">
+
+            <p class="eyebrow">TODAY</p>
+
+            <h2 id="question">
+                You have too many things to do today.
+            </h2>
+
+            <div id="choices" class="choices">
+                <!-- Choices are inserted by JavaScript -->
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RESULT
+             ========================= -->
+
+        <section id="result-screen" class="screen">
+
+            <p class="eyebrow">TODAY'S REMINDER</p>
+
+            <h2 id="quality">
+                PATIENCE +1
+            </h2>
+
+            <p id="affirmation">
+                You don't have to carry everything at once.
+            </p>
+
+            <button id="continue-button">
+                [ continue ]
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             JOURNEY
+             ========================= -->
+
+        <section id="journey-screen" class="screen">
+
+            <p class="eyebrow">YOUR JOURNEY</p>
+
+            <h2>What you've been choosing</h2>
+
+            <div class="stats">
+
+                <div class="stat">
+                    <span>Courage</span>
+
+                    <div class="bar">
+                        <span id="courage-bar"></span>
+                    </div>
+
+                    <strong id="courage-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Calm</span>
+
+                    <div class="bar">
+                        <span id="calm-bar"></span>
+                    </div>
+
+                    <strong id="calm-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Curiosity</span>
+
+                    <div class="bar">
+                        <span id="curiosity-bar"></span>
+                    </div>
+
+                    <strong id="curiosity-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Patience</span>
+
+                    <div class="bar">
+                        <span id="patience-bar"></span>
+                    </div>
+
+                    <strong id="patience-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Freedom</span>
+
+                    <div class="bar">
+                        <span id="freedom-bar"></span>
+                    </div>
+
+                    <strong id="freedom-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Play</span>
+
+                    <div class="bar">
+                        <span id="play-bar"></span>
+                    </div>
+
+                    <strong id="play-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Energy</span>
+
+                    <div class="bar">
+                        <span id="energy-bar"></span>
+                    </div>
+
+                    <strong id="energy-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Self-trust</span>
+
+                    <div class="bar">
+                        <span id="self-trust-bar"></span>
+                    </div>
+
+                    <strong id="self-trust-value">0</strong>
+                </div>
+
+
+                <div class="stat">
+                    <span>Connection</span>
+
+                    <div class="bar">
+                        <span id="connection-bar"></span>
+                    </div>
+
+                    <strong id="connection-value">0</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         JAVASCRIPT
+         ========================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

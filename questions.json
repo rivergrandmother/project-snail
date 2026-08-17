@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1,
+    "question": "You have an hour with nowhere you need to be. What sounds best?",
+    "choices": [
+      {
+        "text": "Find somewhere you've never been.",
+        "quality": "Curiosity",
+        "affirmation": "There is still something you haven't noticed yet."
+      },
+      {
+        "text": "Go somewhere familiar and stay a little longer.",
+        "quality": "Calm",
+        "affirmation": "Familiar things can still surprise you."
+      },
+      {
+        "text": "Walk until something catches your attention.",
+        "quality": "Play",
+        "affirmation": "You don't always need a destination."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "You notice the light is unusually beautiful this morning.",
+    "choices": [
+      {
+        "text": "Stop and look at it.",
+        "quality": "Calm",
+        "affirmation": "Some things are worth stopping for."
+      },
+      {
+        "text": "Take a photograph.",
+        "quality": "Curiosity",
+        "affirmation": "Noticing something is a way of keeping it."
+      },
+      {
+        "text": "Keep walking, but carry the feeling with you.",
+        "quality": "Freedom",
+        "affirmation": "You don't have to hold onto everything to have experienced it."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Something small makes you laugh today.",
+    "choices": [
+      {
+        "text": "Tell someone about it.",
+        "quality": "Connection",
+        "affirmation": "Good things become a little bigger when they are shared."
+      },
+      {
+        "text": "Let yourself enjoy it without explaining it.",
+        "quality": "Play",
+        "affirmation": "Not everything good needs a reason."
+      },
+      {
+        "text": "Look for another little thing that might make you laugh.",
+        "quality": "Curiosity",
+        "affirmation": "There is often more to notice once you start looking."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "You suddenly want to make something, but you have no idea what it should become.",
+    "choices": [
+      {
+        "text": "Start anyway.",
+        "quality": "Courage",
+        "affirmation": "You don't need to know the ending to begin."
+      },
+      {
+        "text": "Make something deliberately useless.",
+        "quality": "Play",
+        "affirmation": "Making something does not require a practical reason."
+      },
+      {
+        "text": "Write the idea down and let it wait.",
+        "quality": "Patience",
+        "affirmation": "Some ideas need time before they know what they are."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "You have twenty minutes completely to yourself.",
+    "choices": [
+      {
+        "text": "Make something.",
+        "quality": "Play",
+        "affirmation": "A small amount of time can still hold something new."
+      },
+      {
+        "text": "Go somewhere and observe.",
+        "quality": "Calm",
+        "affirmation": "You can spend time without needing to produce anything."
+      },
+      {
+        "text": "Follow whatever you're curious about.",
+        "quality": "Curiosity",
+        "affirmation": "A small question can be enough of a direction."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "You see something that makes you think, 'I want to try that.'",
+    "choices": [
+      {
+        "text": "Find out how.",
+        "quality": "Curiosity",
+        "affirmation": "Interest is often the beginning of a path."
+      },
+      {
+        "text": "Put it on a list for later.",
+        "quality": "Patience",
+        "affirmation": "Not every spark needs to become a fire today."
+      },
+      {
+        "text": "Try a tiny version today.",
+        "quality": "Courage",
+        "affirmation": "You can make the first step smaller."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Your first attempt at something isn't very good.",
+    "choices": [
+      {
+        "text": "Try again differently.",
+        "quality": "Courage",
+        "affirmation": "The first attempt only has to teach you something."
+      },
+      {
+        "text": "Keep it anyway.",
+        "quality": "Patience",
+        "affirmation": "There is value in seeing where you started."
+      },
+      {
+        "text": "Decide that being bad at it is currently part of the fun.",
+        "quality": "Play",
+        "affirmation": "You are allowed to enjoy being a beginner."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Your mind feels full when you wake up.",
+    "choices": [
+      {
+        "text": "Write down whatever is there.",
+        "quality": "Calm",
+        "affirmation": "A thought can feel lighter once it has somewhere to go."
+      },
+      {
+        "text": "Go for a walk before deciding what it means.",
+        "quality": "Curiosity",
+        "affirmation": "You don't have to interpret every feeling immediately."
+      },
+      {
+        "text": "Choose one thought to carry into the day.",
+        "quality": "Self-trust",
+        "affirmation": "You can choose what deserves your attention."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "There's something you've been thinking about repeatedly.",
+    "choices": [
+      {
+        "text": "Give it ten quiet minutes of attention.",
+        "quality": "Curiosity",
+        "affirmation": "Sometimes a thought becomes clearer when you sit beside it."
+      },
+      {
+        "text": "Talk about it with someone.",
+        "quality": "Connection",
+        "affirmation": "You don't have to think everything through alone."
+      },
+      {
+        "text": "Put it aside and see what returns tomorrow.",
+        "quality": "Patience",
+        "affirmation": "Not every answer arrives on command."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What deserves a little more of your attention today?",
+    "choices": [
+      {
+        "text": "Something that is already going well.",
+        "quality": "Calm",
+        "affirmation": "Good things deserve to be noticed while they are happening."
+      },
+      {
+        "text": "Something you've been curious about.",
+        "quality": "Curiosity",
+        "affirmation": "Interest is worth following."
+      },
+      {
+        "text": "Someone who makes your life better.",
+        "quality": "Connection",
+        "affirmation": "The people we notice become part of the lives we build."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "You realise you've changed in a small way over the past year.",
+    "choices": [
+      {
+        "text": "Notice what changed.",
+        "quality": "Curiosity",
+        "affirmation": "You are allowed to be interested in who you are becoming."
+      },
+      {
+        "text": "Think about what helped.",
+        "quality": "Self-trust",
+        "affirmation": "You have already carried yourself through more than you remember."
+      },
+      {
+        "text": "Let yourself be surprised by who you're becoming.",
+        "quality": "Freedom",
+        "affirmation": "You don't have to define yourself before you have finished becoming."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Someone gives you a sincere compliment.",
+    "choices": [
+      {
+        "text": "Say thank you and let it land.",
+        "quality": "Self-trust",
+        "affirmation": "You don't have to argue with something kind."
+      },
+      {
+        "text": "Tell them something you appreciate about them too.",
+        "quality": "Connection",
+        "affirmation": "Kindness can travel in both directions."
+      },
+      {
+        "text": "Remember it for a day when you need it.",
+        "quality": "Calm",
+        "affirmation": "You can keep a kind word for later."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "You realise you have been rushing for no particular reason.",
+    "choices": [
+      {
+        "text": "Slow down.",
+        "quality": "Calm",
+        "affirmation": "You are allowed to arrive at your own pace."
+      },
+      {
+        "text": "Keep going, but notice what you're rushing towards.",
+        "quality": "Curiosity",
+        "affirmation": "Sometimes noticing the destination changes the journey."
+      },
+      {
+        "text": "Take the scenic route.",
+        "quality": "Play",
+        "affirmation": "The long way can still be a way forward."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Something you want hasn't happened yet.",
+    "choices": [
+      {
+        "text": "Give it more time.",
+        "quality": "Patience",
+        "affirmation": "Not yet is not the same thing as never."
+      },
+      {
+        "text": "Take one small step towards it.",
+        "quality": "Courage",
+        "affirmation": "A small movement still changes your position."
+      },
+      {
+        "text": "Let yourself want it without solving it today.",
+        "quality": "Freedom",
+        "affirmation": "You can hold a desire without turning it into a deadline."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "You have a completely free afternoon.",
+    "choices": [
+      {
+        "text": "Make a loose plan.",
+        "quality": "Energy",
+        "affirmation": "A little intention can give a day somewhere to begin."
+      },
+      {
+        "text": "Leave it completely open.",
+        "quality": "Freedom",
+        "affirmation": "An empty space can be an invitation."
+      },
+      {
+        "text": "Choose one thing you haven't done in a while.",
+        "quality": "Curiosity",
+        "affirmation": "Old interests sometimes become new again."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Someone you care about crosses your mind unexpectedly.",
+    "choices": [
+      {
+        "text": "Send them a message.",
+        "quality": "Connection",
+        "affirmation": "Sometimes a small hello is enough."
+      },
+      {
+        "text": "Wonder what they might be doing.",
+        "quality": "Curiosity",
+        "affirmation": "Care can exist quietly too."
+      },
+      {
+        "text": "Let the thought be enough.",
+        "quality": "Calm",
+        "affirmation": "Not every feeling needs an action."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Someone tells you something they're excited about.",
+    "choices": [
+      {
+        "text": "Ask them more about it.",
+        "quality": "Curiosity",
+        "affirmation": "Attention is one of the simplest forms of generosity."
+      },
+      {
+        "text": "Tell them what excites you about it too.",
+        "quality": "Connection",
+        "affirmation": "Shared excitement makes room for more of it."
+      },
+      {
+        "text": "Simply be happy that they're excited.",
+        "quality": "Play",
+        "affirmation": "You don't need to understand every joy to enjoy someone else's."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "There's something you've wanted to say.",
+    "choices": [
+      {
+        "text": "Say it simply.",
+        "quality": "Courage",
+        "affirmation": "You don't need perfect words to be honest."
+      },
+      {
+        "text": "Write it down first.",
+        "quality": "Patience",
+        "affirmation": "Taking your time can be part of saying something clearly."
+      },
+      {
+        "text": "Wait until you know what you really mean.",
+        "quality": "Self-trust",
+        "affirmation": "You can trust yourself to recognise the right moment."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "You have an idea that feels slightly ridiculous.",
+    "choices": [
+      {
+        "text": "Tell someone.",
+        "quality": "Courage",
+        "affirmation": "Some ideas need to be spoken before they know what they are."
+      },
+      {
+        "text": "Keep it to yourself and see where it goes.",
+        "quality": "Patience",
+        "affirmation": "You don't have to share every beginning."
+      },
+      {
+        "text": "Try the smallest possible version.",
+        "quality": "Play",
+        "affirmation": "Ridiculous ideas are allowed to have tiny experiments."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "A snail passes you on the pavement.",
+    "choices": [
+      {
+        "text": "Let it have the right of way.",
+        "quality": "Calm",
+        "affirmation": "There is no need to hurry past everything."
+      },
+      {
+        "text": "Wonder where it's going.",
+        "quality": "Curiosity",
+        "affirmation": "A little mystery can make an ordinary day better."
+      },
+      {
+        "text": "Decide that you're both doing fine.",
+        "quality": "Self-trust",
+        "affirmation": "There is more than one acceptable pace."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "You find a very good stone.",
+    "choices": [
+      {
+        "text": "Keep it.",
+        "quality": "Play",
+        "affirmation": "You are allowed to collect small, unnecessary joys."
+      },
+      {
+        "text": "Put it back exactly where you found it.",
+        "quality": "Freedom",
+        "affirmation": "Sometimes appreciation means leaving something where it belongs."
+      },
+      {
+        "text": "Carry it around for a while.",
+        "quality": "Curiosity",
+        "affirmation": "You don't need a reason to enjoy a strange little thing."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "You wake up before your alarm.",
+    "choices": [
+      {
+        "text": "Get up and see what the morning has to offer.",
+        "quality": "Curiosity",
+        "affirmation": "The day can begin before you have decided what it will be."
+      },
+      {
+        "text": "Stay in bed and listen to the world outside.",
+        "quality": "Calm",
+        "affirmation": "Being still is also a way of being present."
+      },
+      {
+        "text": "Go back to sleep. You don't owe the morning anything.",
+        "quality": "Freedom",
+        "affirmation": "You are allowed to choose your own beginning."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "You see an empty bench in the sun.",
+    "choices": [
+      {
+        "text": "Sit down.",
+        "quality": "Calm",
+        "affirmation": "You can stop simply because stopping feels good."
+      },
+      {
+        "text": "Walk past and notice that you wanted to sit down.",
+        "quality": "Curiosity",
+        "affirmation": "Noticing what you want is useful information."
+      },
+      {
+        "text": "Sit down for exactly one minute.",
+        "quality": "Play",
+        "affirmation": "You can make a game out of giving yourself time."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "You hear a song you haven't heard in years.",
+    "choices": [
+      {
+        "text": "Listen to the whole thing.",
+        "quality": "Calm",
+        "affirmation": "Some moments are worth staying with."
+      },
+      {
+        "text": "Look up where it came from.",
+        "quality": "Curiosity",
+        "affirmation": "One remembered thing can open a door to many others."
+      },
+      {
+        "text": "Send it to someone who might remember it too.",
+        "quality": "Connection",
+        "affirmation": "Memory becomes warmer when it has somewhere to go."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "You suddenly remember something you used to love doing.",
+    "choices": [
+      {
+        "text": "Do a little of it today.",
+        "quality": "Energy",
+        "affirmation": "An old interest doesn't have to stay in the past."
+      },
+      {
+        "text": "Wonder why you stopped.",
+        "quality": "Curiosity",
+        "affirmation": "The things we leave behind can still tell us something."
+      },
+      {
+        "text": "Let the memory make you smile.",
+        "quality": "Play",
+        "affirmation": "You don't have to restart everything to appreciate what it gave you."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "You have a free morning in an unfamiliar place.",
+    "choices": [
+      {
+        "text": "Walk without checking where you're going.",
+        "quality": "Freedom",
+        "affirmation": "Sometimes the best direction is simply forward."
+      },
+      {
+        "text": "Find a café and watch the morning happen.",
+        "quality": "Calm",
+        "affirmation": "You can experience a place without needing to conquer it."
+      },
+      {
+        "text": "Ask someone what they would do with the morning.",
+        "quality": "Connection",
+        "affirmation": "A place becomes more interesting through the people in it."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "You notice you've been waiting for the perfect moment to begin.",
+    "choices": [
+      {
+        "text": "Begin with what you have.",
+        "quality": "Courage",
+        "affirmation": "The ordinary moment is often the only one available."
+      },
+      {
+        "text": "Make the beginning smaller.",
+        "quality": "Patience",
+        "affirmation": "You can make starting easier without making it less meaningful."
+      },
+      {
+        "text": "Decide that today isn't the day, and choose another.",
+        "quality": "Freedom",
+        "affirmation": "Choosing your timing is different from giving up."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Something unexpectedly goes your way.",
+    "choices": [
+      {
+        "text": "Enjoy the luck.",
+        "quality": "Play",
+        "affirmation": "You don't have to earn every good thing that happens."
+      },
+      {
+        "text": "Notice what made it possible.",
+        "quality": "Curiosity",
+        "affirmation": "Good fortune can still teach you something."
+      },
+      {
+        "text": "Pass some of the good feeling on.",
+        "quality": "Connection",
+        "affirmation": "A good moment doesn't become smaller when it is shared."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "You have done enough for today.",
+    "choices": [
+      {
+        "text": "Stop.",
+        "quality": "Calm",
+        "affirmation": "Enough is a place you are allowed to arrive at."
+      },
+      {
+        "text": "Do one small thing just because you want to.",
+        "quality": "Play",
+        "affirmation": "Not everything you do has to be necessary."
+      },
+      {
+        "text": "Look back at what you managed to do.",
+        "quality": "Self-trust",
+        "affirmation": "It is worth noticing what you carried."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "At the end of the month, you look back at the small choices you've made.",
+    "choices": [
+      {
+        "text": "Notice what kept returning.",
+        "quality": "Curiosity",
+        "affirmation": "Patterns can become visible when you give them time."
+      },
+      {
+        "text": "Notice what surprised you.",
+        "quality": "Freedom",
+        "affirmation": "You are not required to remain exactly who you expected to be."
+      },
+      {
+        "text": "Choose something you'd like to carry into the next month.",
+        "quality": "Courage",
+        "affirmation": "A new month doesn't require a new person. Just another small step."
+      }
+    ]
+  }
+]
