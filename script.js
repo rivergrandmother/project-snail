@@ -607,15 +607,17 @@ function updateJourney() {
                 barElement
             ) {
 
-                const percentage =
-                    Math.min(
-                        value * 10,
-                        100
-                    );
+                const maxBlocks = 10;
 
+                const filled =
+                    Math.min(value, maxBlocks);
 
-                barElement.style.width =
-                    `${percentage}%`;
+                const empty =
+                    maxBlocks - filled;
+
+                barElement.textContent =
+                    "■".repeat(filled) +
+                    "□".repeat(empty);
 
             }
 

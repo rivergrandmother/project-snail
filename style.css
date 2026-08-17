@@ -172,53 +172,57 @@ button {
 
 
 /* =========================
-   JOURNEY / STATS
+   RPG STAT SCREEN
    ========================= */
 
 .stats {
     margin-top: 40px;
+
+    font-size: 15px;
 }
 
 .stat {
     display: grid;
 
-    grid-template-columns: 100px 1fr 30px;
+    grid-template-columns: 110px 1fr 25px;
 
     align-items: center;
 
     gap: 12px;
 
-    padding: 7px 0;
+    margin-bottom: 12px;
+}
 
-    font-size: 16px;
+.stat-name {
+    text-transform: uppercase;
+}
+
+.stat-bar {
+    display: block;
+
+    font-family: "Courier New", Courier, monospace;
+
+    letter-spacing: 1px;
+
+    white-space: nowrap;
+}
+
+.stat-bar::before {
+    content: "[";
+}
+
+.stat-bar::after {
+    content: "]";
+
+    margin-left: 0;
 }
 
 .stat strong {
     font-weight: 400;
+
     text-align: right;
-}
 
-
-/* Stat bar */
-
-.bar {
-    height: 16px;
-
-    display: flex;
-
-    border: 1px solid #111;
-}
-
-.bar span {
-    display: block;
-
-    height: 100%;
-
-    background: #111;
-
-    width: 0%;
-
-    transition: width 0.3s ease;
+    font-variant-numeric: tabular-nums;
 }
 
 
@@ -265,10 +269,56 @@ button {
 
         gap: 8px;
 
-        font-size: 14px;
+        font-size: 13px;
+    }
+}
+
+
+.snail-animation {
+    position: relative;
+    width: 100%;
+    height: 80px;
+
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.mini-snail {
+    position: absolute;
+
+    margin: 0;
+
+    font-family: "Courier New", monospace;
+    font-size: 10px;
+    line-height: 1;
+
+    animation: snailWalk 30s linear infinite;
+    animation-fill-mode: backwards;
+}
+
+.snail-1 {
+    top: 5px;
+    animation-delay: 0s;
+}
+
+.snail-2 {
+    top: 5px;
+    animation-delay: 10s;
+}
+
+.snail-3 {
+    top: 5px;
+    animation-delay: 20s;
+}
+
+@keyframes snailWalk {
+
+    from {
+        left: 100%;
     }
 
-    .bar {
-        height: 14px;
+    to {
+        left: -60px;
     }
+
 }
