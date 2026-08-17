@@ -57,6 +57,13 @@ body {
     letter-spacing: 0.15em;
 }
 
+.progress-counter {
+    margin: -20px 0 32px;
+
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
 h1,
 h2 {
     margin: 0;
@@ -231,6 +238,10 @@ button {
 
     .eyebrow {
         margin-bottom: 28px;
+    }
+
+    .progress-counter {
+        margin-bottom: 24px;
     }
 
     h1 {

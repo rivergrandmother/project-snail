@@ -187,6 +187,12 @@ const homeMessage =
     );
 
 
+const progressCounter =
+    document.getElementById(
+        "progress-counter"
+    );
+
+
 const questionElement =
     document.getElementById(
         "question"
@@ -303,7 +309,7 @@ function setCurrentQuestion() {
     }
 
 
-    // 30 days completed
+    // Journey finished
     if (
         progress.currentQuestion >=
         questions.length
@@ -339,6 +345,15 @@ function loadQuestion() {
 
     questionElement.textContent =
         todaysQuestion.question;
+
+
+    // Update 01 / 30 counter
+    progressCounter.textContent =
+        `${String(
+            progress.currentQuestion + 1
+        ).padStart(2, "0")} / ${String(
+            questions.length
+        ).padStart(2, "0")}`;
 
 
     choicesContainer.innerHTML =
@@ -523,7 +538,9 @@ function updateHomeScreen() {
 
 
     // Already played today
-    if (hasPlayedToday()) {
+    if (
+        hasPlayedToday()
+    ) {
 
         homeMessage.textContent =
             "You've already made your choice today.";
@@ -574,7 +591,7 @@ function updateJourney() {
                 );
 
 
-            // Number
+            // Update number
             if (
                 valueElement
             ) {
@@ -585,7 +602,7 @@ function updateJourney() {
             }
 
 
-            // Bar
+            // Update bar
             if (
                 barElement
             ) {
@@ -609,7 +626,7 @@ function updateJourney() {
 
 
 // =========================
-// START BUTTON
+// START / HOME BUTTON
 // =========================
 
 startButton.addEventListener(
